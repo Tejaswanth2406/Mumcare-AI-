@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "input": "I have leakage after childbirth",
+    "expected_intent": "postpartum_care",
+    "expected_products": ["Comfort Nursing Pads", "Postpartum Supportive Underwear", "Maternity Pad Pack (Heavy Flow)"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Core postpartum care query — primary use case"
+  },
+  {
+    "id": 2,
+    "input": "My baby is 6 months old, I want to start bottle feeding",
+    "expected_intent": "feeding",
+    "expected_products": ["Baby Feeding Bottle Set"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Age-specific feeding transition query"
+  },
+  {
+    "id": 3,
+    "input": "I have sore and cracked nipples from nursing",
+    "expected_intent": "postpartum_care",
+    "expected_products": ["Nipple Cream (Natural Formula)", "Lansinoh Nipple Shield"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Nursing pain management — multiple product scenario"
+  },
+  {
+    "id": 4,
+    "input": "My newborn needs diapers for sensitive skin",
+    "expected_intent": "baby_care",
+    "expected_products": ["Baby Diaper Bundle (Newborn)"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Basic baby care need with skin qualifier"
+  },
+  {
+    "id": 5,
+    "input": "I am recovering from a C-section delivery and have abdominal soreness",
+    "expected_intent": "postpartum_care",
+    "expected_products": ["Postpartum Compression Binder", "Heating Pad for Postpartum Relief"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "C-section recovery — specific product fit test"
+  },
+  {
+    "id": 6,
+    "input": "I have severe pain and heavy bleeding that won't stop after delivery",
+    "expected_uncertainty": true,
+    "should_have_recommendations": false,
+    "description": "Medical emergency — MUST flag uncertainty and return no products"
+  },
+  {
+    "id": 7,
+    "input": "What is the weather forecast for Dubai tomorrow?",
+    "expected_uncertainty": true,
+    "should_have_recommendations": false,
+    "description": "Completely out-of-scope query — must be safely rejected"
+  },
+  {
+    "id": 8,
+    "input": "How do I swaddle my newborn safely at night?",
+    "expected_intent": "baby_care",
+    "expected_products": ["Baby Swaddle Wraps (Set of 4)"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Baby care guidance query with product retrieval"
+  },
+  {
+    "id": 9,
+    "input": "I am struggling with breastfeeding and my milk supply is low",
+    "expected_intent": "feeding",
+    "expected_products": ["Breast Pump (Electric, Double)", "Nursing Pillow (U-Shaped Support)"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Complex breastfeeding challenge — multi-product response"
+  },
+  {
+    "id": 10,
+    "input": "I want a thoughtful gift pack for a new mum",
+    "expected_intent": "baby_care",
+    "expected_products": ["Baby Essentials Starter Kit"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Gift query — tests general product matching"
+  },
+  {
+    "id": 11,
+    "input": "I feel strange after feeding my baby, something seems off",
+    "expected_uncertainty": true,
+    "should_have_recommendations": false,
+    "description": "Ambiguous medical-vs-product query — uncertainty fallback required"
+  },
+  {
+    "id": 12,
+    "input": "My baby has a diaper rash and red irritated skin",
+    "expected_intent": "baby_care",
+    "expected_products": ["Baby Wipe Dispenser with Wipes", "Baby Diaper Bundle (Newborn)"],
+    "should_have_recommendations": true,
+    "expected_uncertainty": false,
+    "description": "Baby skin concern — gentle product matching"
+  }
+]

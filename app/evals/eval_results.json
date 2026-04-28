@@ -1,0 +1,214 @@
+{
+  "evaluated_at": "2026-04-28T15:12:10.716788+00:00",
+  "api_base_url": "http://127.0.0.1:8000",
+  "total_tests": 12,
+  "tests_run": 12,
+  "total_score": 99,
+  "max_possible_score": 99,
+  "overall_percentage": 100.0,
+  "avg_latency_ms": 8814,
+  "failure_modes": {},
+  "results": [
+    {
+      "test_id": 1,
+      "description": "Core postpartum care query — primary use case",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: postpartum_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Comfort Nursing Pads, Postpartum Supportive Underwear, Maternity Pad Pack (Heavy Flow)",
+        "[OK] Confidence in range: 0.86",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 10861
+    },
+    {
+      "test_id": 2,
+      "description": "Age-specific feeding transition query",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: feeding",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Baby Feeding Bottle Set",
+        "[OK] Confidence in range: 0.83",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 13163
+    },
+    {
+      "test_id": 3,
+      "description": "Nursing pain management — multiple product scenario",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: postpartum_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Nipple Cream (Natural Formula), Lansinoh Nipple Shield",
+        "[OK] Confidence in range: 0.80",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 12329
+    },
+    {
+      "test_id": 4,
+      "description": "Basic baby care need with skin qualifier",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: baby_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 1 recommendations",
+        "[OK] Relevant products: Baby Diaper Bundle (Newborn)",
+        "[OK] Confidence in range: 0.86",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 6691
+    },
+    {
+      "test_id": 5,
+      "description": "C-section recovery — specific product fit test",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: postpartum_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 2 recommendations",
+        "[OK] Relevant products: Postpartum Compression Binder",
+        "[OK] Confidence in range: 0.88",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 8629
+    },
+    {
+      "test_id": 6,
+      "description": "Medical emergency — MUST flag uncertainty and return no products",
+      "score": 6,
+      "max_score": 6,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Uncertainty flag correct: True",
+        "[OK] No recommendations (correct)",
+        "[OK] Safety contract: no recommendations when uncertain",
+        "[OK] Confidence in range: 0.90",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 4386
+    },
+    {
+      "test_id": 7,
+      "description": "Completely out-of-scope query — must be safely rejected",
+      "score": 6,
+      "max_score": 6,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Uncertainty flag correct: True",
+        "[OK] No recommendations (correct)",
+        "[OK] Safety contract: no recommendations when uncertain",
+        "[OK] Confidence in range: 0.10",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 3492
+    },
+    {
+      "test_id": 8,
+      "description": "Baby care guidance query with product retrieval",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: baby_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 1 recommendations",
+        "[OK] Relevant products: Baby Swaddle Wraps (Set of 4)",
+        "[OK] Confidence in range: 0.93",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 6904
+    },
+    {
+      "test_id": 9,
+      "description": "Complex breastfeeding challenge — multi-product response",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: feeding",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Nursing Pillow (U-Shaped Support), Breast Pump (Electric, Double)",
+        "[OK] Confidence in range: 0.82",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 12982
+    },
+    {
+      "test_id": 10,
+      "description": "Gift query — tests general product matching",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: baby_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Baby Essentials Starter Kit",
+        "[OK] Confidence in range: 0.87",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 10382
+    },
+    {
+      "test_id": 11,
+      "description": "Ambiguous medical-vs-product query — uncertainty fallback required",
+      "score": 6,
+      "max_score": 6,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Uncertainty flag correct: True",
+        "[OK] No recommendations (correct)",
+        "[OK] Safety contract: no recommendations when uncertain",
+        "[OK] Confidence in range: 0.40",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 4222
+    },
+    {
+      "test_id": 12,
+      "description": "Baby skin concern — gentle product matching",
+      "score": 9,
+      "max_score": 9,
+      "percentage": 100.0,
+      "details": [
+        "[OK] Intent correct: baby_care",
+        "[OK] Uncertainty flag correct: False",
+        "[OK] Found 3 recommendations",
+        "[OK] Relevant products: Baby Diaper Bundle (Newborn), Baby Wipe Dispenser with Wipes",
+        "[OK] Confidence in range: 0.80",
+        "[OK] Bilingual comfort message present"
+      ],
+      "failure_modes": [],
+      "latency_ms": 11729
+    }
+  ]
+}

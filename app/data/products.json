@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "product_name": "Comfort Nursing Pads",
+    "category": "postpartum_care",
+    "tags": ["leakage", "postpartum", "comfort", "nursing"],
+    "description": "Absorbent pads designed for postpartum leakage and nursing comfort. Soft, breathable material that prevents milk leakage and provides all-day comfort.",
+    "review_summary": "Highly comfortable for daily use by mothers experiencing postpartum leakage. Customers praise the absorbency and comfort."
+  },
+  {
+    "id": 2,
+    "product_name": "Postpartum Supportive Underwear",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "support", "comfort", "recovery"],
+    "description": "High-waist, supportive underwear designed for postpartum recovery. Provides gentle support and can accommodate absorbent pads.",
+    "review_summary": "Mothers report feeling more secure and comfortable during postpartum recovery. Great for healing process."
+  },
+  {
+    "id": 3,
+    "product_name": "Baby Feeding Bottle Set",
+    "category": "feeding",
+    "tags": ["feeding", "baby", "bottle", "milk"],
+    "description": "Safe, BPA-free feeding bottles designed for infants 0-12 months. Anti-colic design reduces gas and discomfort.",
+    "review_summary": "Parents appreciate the easy-to-clean design and anti-colic features. Babies transition well from breast to bottle."
+  },
+  {
+    "id": 4,
+    "product_name": "Breast Pump (Electric, Double)",
+    "category": "feeding",
+    "tags": ["feeding", "breast", "pump", "milk", "postpartum"],
+    "description": "Double electric breast pump with 9 suction levels. Designed for efficient milk expression and maternal comfort.",
+    "review_summary": "Mothers find this breast pump efficient and comfortable. Helps establish milk supply after childbirth."
+  },
+  {
+    "id": 5,
+    "product_name": "Nipple Cream (Natural Formula)",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "nursing", "nipple", "care", "comfort"],
+    "description": "Natural lanolin-based cream for sore and cracked nipples. Safe for baby, provides instant relief.",
+    "review_summary": "Nursing mothers report significant relief from soreness within days. Natural ingredients are gentle on skin."
+  },
+  {
+    "id": 6,
+    "product_name": "Maternity Pad Pack (Heavy Flow)",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "bleeding", "leakage", "heavy-flow"],
+    "description": "Heavy-flow pads specifically designed for postpartum bleeding. Overnight protection with extra absorbency.",
+    "review_summary": "Mothers appreciate the heavy-flow protection during first weeks postpartum. Discreet and comfortable."
+  },
+  {
+    "id": 7,
+    "product_name": "Baby Diaper Bundle (Newborn)",
+    "category": "baby_care",
+    "tags": ["baby", "diaper", "newborn", "care"],
+    "description": "Soft, hypoallergenic diapers for newborns. Gentle on delicate skin, prevents rashes and irritation.",
+    "review_summary": "New parents love the gentle fit and hypoallergenic design. No rashes or discomfort reported."
+  },
+  {
+    "id": 8,
+    "product_name": "Postpartum Compression Binder",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "compression", "recovery", "support"],
+    "description": "Breathable compression binder provides gentle abdominal support during postpartum recovery. Helps with comfort and healing.",
+    "review_summary": "Women find this helpful for post-delivery comfort and core support. Discreet under clothing."
+  },
+  {
+    "id": 9,
+    "product_name": "Heating Pad for Postpartum Relief",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "pain-relief", "heating", "comfort"],
+    "description": "Microwaveable heating pad designed for postpartum pain relief. Safe to use while nursing.",
+    "review_summary": "Mothers use this for cramping and general postpartum discomfort. Provides consistent, soothing warmth."
+  },
+  {
+    "id": 10,
+    "product_name": "Baby Wipe Dispenser with Wipes",
+    "category": "baby_care",
+    "tags": ["baby", "wipes", "care", "hygiene"],
+    "description": "Convenient wipe dispenser with hypoallergenic baby wipes. One-handed operation for easy use.",
+    "review_summary": "Parents appreciate the convenience and quality of wipes. The dispenser keeps wipes moist and accessible."
+  },
+  {
+    "id": 11,
+    "product_name": "Nursing Pillow (U-Shaped Support)",
+    "category": "feeding",
+    "tags": ["nursing", "feeding", "pillow", "support", "postpartum"],
+    "description": "U-shaped nursing pillow provides proper positioning for mother and baby during feeding. Reduces neck and back strain.",
+    "review_summary": "Mothers report less strain and better feeding positions with this pillow. Improves nursing experience significantly."
+  },
+  {
+    "id": 12,
+    "product_name": "Postpartum Recovery Tea (Herbal Blend)",
+    "category": "postpartum_care",
+    "tags": ["postpartum", "recovery", "tea", "wellness"],
+    "description": "Organic herbal tea blend designed to support postpartum recovery. Contains nutrients to aid healing.",
+    "review_summary": "Mothers appreciate the gentle support. Many report feeling better and more energized during recovery."
+  },
+  {
+    "id": 13,
+    "product_name": "Baby Swaddle Wraps (Set of 4)",
+    "category": "baby_care",
+    "tags": ["baby", "swaddle", "newborn", "sleep"],
+    "description": "Soft, breathable swaddle wraps for newborn comfort and security. Helps baby sleep better and feel secure.",
+    "review_summary": "Parents love how swaddling calms their babies. Breathable fabric prevents overheating concerns."
+  },
+  {
+    "id": 14,
+    "product_name": "Lansinoh Nipple Shield",
+    "category": "feeding",
+    "tags": ["nursing", "feeding", "nipple", "shield"],
+    "description": "Thin, flexible nipple shield for breastfeeding comfort. Helps with latch issues and nipple soreness.",
+    "review_summary": "Nursing mothers find this helpful for latch issues and soreness. Maintains milk supply effectively."
+  },
+  {
+    "id": 15,
+    "product_name": "Baby Essentials Starter Kit",
+    "category": "baby_care",
+    "tags": ["baby", "starter", "essentials", "newborn", "gift"],
+    "description": "Complete starter kit with essential items for newborn care. Includes basics for feeding, changing, and comfort.",
+    "review_summary": "Great kit for first-time parents. Comprehensive and good value with quality items included."
+  }
+]
