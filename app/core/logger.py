@@ -1,5 +1,5 @@
 """
-Centralised structured logging for MumCare AI.
+Centralised structured logging for MumzWorld AI.
 
 Supports two output modes, controlled by config.log_format:
   - "text"  — human-readable for local development

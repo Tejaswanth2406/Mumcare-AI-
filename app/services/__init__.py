@@ -1,7 +1,7 @@
 """
 Service layer containing all business logic and AI pipeline steps.
 
-This module exposes the discrete functional steps of the MumCare AI pipeline,
+This module exposes the discrete functional steps of the MumzWorld AI pipeline,
 designed to be orchestrated by the route handlers or called independently
 in background workers/evaluations.
 """

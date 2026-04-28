@@ -1,7 +1,7 @@
-# MumCare AI — Complete Setup & Running Guide
+# MumzWorld AI — Complete Setup & Running Guide
 
 ## Overview
-MumCare AI now has **two interfaces** that work together:
+MumzWorld AI now has **two interfaces** that work together:
 
 1. **Website (FastAPI + HTML)** — Beautiful interactive web interface served at `http://localhost:8000`
 2. **Streamlit App** — Premium dashboard served at `http://localhost:8501` (optional)

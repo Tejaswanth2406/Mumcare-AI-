@@ -1,7 +1,7 @@
 #!/bin/bash
-# MumCare AI - Quick Start Script
+# MumzWorld AI - Quick Start Script
 
-echo "🚀 MumCare AI - Starting Services"
+echo "🚀 MumzWorld AI - Starting Services"
 echo "===================================="
 
 # Check if .env exists

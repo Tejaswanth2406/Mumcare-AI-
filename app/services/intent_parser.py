@@ -248,7 +248,7 @@ async def _call_llm(
                 "Authorization": f"Bearer {settings.openrouter_api_key.get_secret_value()}",
                 "Content-Type": "application/json",
                 "HTTP-Referer": "https://mumzworld.com",
-                "X-Title": "MumCare AI",
+                "X-Title": "MumzWorld AI",
                 "X-Correlation-ID": correlation_id,
             },
             json=payload,

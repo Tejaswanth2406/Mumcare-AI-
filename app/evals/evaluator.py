@@ -1,5 +1,5 @@
 """
-Production-grade evaluation harness for MumCare AI.
+Production-grade evaluation harness for MumzWorld AI.
 
 Evaluates the live API against a set of labelled test cases with:
   - Multi-dimensional scoring (intent, uncertainty, recommendations, relevance)
@@ -256,7 +256,7 @@ def run_evaluation(
     failure_mode_counts: dict[str, int] = {}
 
     print("\n" + "=" * 80)
-    print("  MumCare AI - Evaluation Suite")
+    print("  MumzWorld AI - Evaluation Suite")
     print(f"  Target: {base_url}  |  Tests: {len(test_cases)}")
     print("=" * 80)
 
@@ -333,7 +333,7 @@ def run_evaluation(
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="MumCare AI Evaluation Suite")
+    parser = argparse.ArgumentParser(description="MumzWorld AI Evaluation Suite")
     parser.add_argument("--url", default="http://localhost:8000", help="API base URL")
     parser.add_argument("--timeout", type=int, default=30, help="Per-request timeout (seconds)")
     parser.add_argument("--no-save", action="store_true", help="Don't save results to disk")

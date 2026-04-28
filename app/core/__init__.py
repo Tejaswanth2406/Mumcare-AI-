@@ -1,5 +1,5 @@
 """
-Core utilities, configuration, and shared schemas for MumCare AI.
+Core utilities, configuration, and shared schemas for MumzWorld AI.
 
 This module provides the foundation for the entire application, including:
   - Strongly typed Pydantic v2 schemas

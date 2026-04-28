@@ -1,8 +1,8 @@
 @echo off
-REM MumCare AI - Quick Start Script for Windows
+REM MumzWorld AI - Quick Start Script for Windows
 
 echo.
-echo 🚀 MumCare AI - Starting Services
+echo 🚀 MumzWorld AI - Starting Services
 echo ====================================
 echo.
 

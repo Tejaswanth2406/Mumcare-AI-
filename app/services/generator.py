@@ -364,7 +364,7 @@ async def generate_recommendations(
         "Authorization": f"Bearer {settings.openrouter_api_key.get_secret_value()}",
         "Content-Type": "application/json",
         "HTTP-Referer": "https://mumzworld.com",
-        "X-Title": "MumCare AI",
+        "X-Title": "MumzWorld AI",
     }
 
     # --- Tenacity retry (5xx + network errors only) ---

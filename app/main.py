@@ -71,14 +71,14 @@ async def lifespan(app: FastAPI):  # type: ignore[type-arg]
 
 # ── Application factory ───────────────────────────────────────────────────────
 app = FastAPI(
-    title="MumCare AI",
+    title="MumzWorld AI",
     description=(
         "AI-native decision engine for Mumzworld — transforms natural-language "
         "queries into grounded, bilingual product recommendations with built-in "
         "safety and uncertainty handling."
     ),
     version=APP_VERSION,
-    contact={"name": "MumCare AI Team", "url": "https://mumzworld.com"},
+    contact={"name": "MumzWorld AI Team", "url": "https://mumzworld.com"},
     license_info={"name": "Proprietary"},
     openapi_tags=[
         {
@@ -199,7 +199,7 @@ async def health_check() -> HealthResponse:
     started_at = getattr(app.state, "started_at", START_TIME)
     return HealthResponse(
         status="ok",
-        service="MumCare AI",
+        service="MumzWorld AI",
         version=APP_VERSION,
         uptime_seconds=round(time.perf_counter() - started_at, 2),
     )

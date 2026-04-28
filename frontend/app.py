@@ -1,5 +1,5 @@
 """
-Production-grade Streamlit frontend for MumCare AI.
+Production-grade Streamlit frontend for MumzWorld AI.
 
 Design principles:
   - Premium dark-mode UI with glassmorphism cards
@@ -22,7 +22,7 @@ import streamlit as st
 # Page config — MUST be first Streamlit call
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="MumCare AI — Smart Maternal Assistant",
+    page_title="MumzWorld AI — Smart Maternal Assistant",
     page_icon="🌸",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -320,7 +320,7 @@ def _call_api(query: str) -> dict | None:
 # Sidebar
 # ─────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### 🌸 MumCare AI")
+    st.markdown("### 🌸 MumzWorld AI")
     st.markdown(
         "<p style='color:#6b7280;font-size:0.85rem;'>AI-native decision engine for Mumzworld</p>",
         unsafe_allow_html=True,
@@ -359,7 +359,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         "<p style='color:#374151;font-size:0.75rem;text-align:center;'>"
-        "MumCare AI v2.0 · Built for Mumzworld</p>",
+        "MumzWorld AI v2.0 · Built for Mumzworld</p>",
         unsafe_allow_html=True,
     )
 
@@ -369,7 +369,7 @@ with st.sidebar:
 st.markdown("""
 <div class="hero">
   <div class="badge">🌸 AI-Native Decision Engine</div>
-  <h1>MumCare AI</h1>
+  <h1>MumzWorld AI</h1>
   <p>Describe your situation in natural language — get empathetic, grounded product recommendations<br>
      with usage guidance in English & Arabic. No filters. No browsing. Just answers.</p>
 </div>
@@ -602,7 +602,7 @@ if submit:
 
         st.caption(
             f"⏱️ Response generated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} · "
-            "MumCare AI v2.0 · Powered by Mumzworld"
+            "MumzWorld AI v2.0 · Powered by Mumzworld"
         )
 
 # ─────────────────────────────────────────────────────────────────────────────

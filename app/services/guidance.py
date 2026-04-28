@@ -1,5 +1,5 @@
 """
-Context-aware guidance text for MumCare AI responses.
+Context-aware guidance text for MumzWorld AI responses.
 """
 
 from __future__ import annotations
@@ -72,7 +72,7 @@ def generate_guidance(
         if any(keyword in query_lower for keyword in _EMERGENCY_KEYWORDS):
             return (
                 "This sounds urgent. Please contact your healthcare provider or "
-                "call emergency services if needed. MumCare AI is not a substitute for medical advice."
+                "call emergency services if needed. MumzWorld AI is not a substitute for medical advice."
             )
         return (
             "This is outside my area of expertise. Please consult with a healthcare provider "

@@ -1,5 +1,5 @@
 """
-Enterprise-grade Pydantic v2 schemas for MumCare AI.
+Enterprise-grade Pydantic v2 schemas for MumzWorld AI.
 
 Design principles
 ─────────────────
@@ -486,7 +486,7 @@ class AuditEvent(_Base):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Core domain schemas (MumCare AI pipeline)
+# Core domain schemas (MumzWorld AI pipeline)
 # ─────────────────────────────────────────────────────────────────────────────
 
 class QueryRequest(_Base):

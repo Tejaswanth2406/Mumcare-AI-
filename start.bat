@@ -1,10 +1,10 @@
 @echo off
-REM MumCare AI — Quick Start Script
+REM MumzWorld AI — Quick Start Script
 REM Activates venv and starts FastAPI backend
 
 echo.
 echo ╔════════════════════════════════════════════════╗
-echo ║         MumCare AI — Smart Maternal Helper     ║
+echo ║         MumzWorld AI — Smart Maternal Helper     ║
 echo ║                                                ║
 echo ║   Starting FastAPI Backend + Website...       ║
 echo ╚════════════════════════════════════════════════╝
@@ -40,7 +40,7 @@ if not exist ".env" (
 )
 
 echo.
-echo ✅ Starting MumCare AI Backend...
+echo ✅ Starting MumzWorld AI Backend...
 echo.
 echo 🌐 Open your browser and go to: http://localhost:8000
 echo 📚 API Docs: http://localhost:8000/docs

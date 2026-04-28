@@ -1,10 +1,10 @@
 #!/usr/bin/env pwsh
-# MumCare AI — Quick Start Script (PowerShell)
+# MumzWorld AI — Quick Start Script (PowerShell)
 # Activates venv and starts FastAPI backend
 
 Write-Host ""
 Write-Host "╔════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║         MumCare AI — Smart Maternal Helper     ║" -ForegroundColor Cyan
+Write-Host "║         MumzWorld AI — Smart Maternal Helper     ║" -ForegroundColor Cyan
 Write-Host "║                                                ║" -ForegroundColor Cyan
 Write-Host "║   Starting FastAPI Backend + Website...       ║" -ForegroundColor Cyan
 Write-Host "╚════════════════════════════════════════════════╝" -ForegroundColor Cyan
@@ -40,7 +40,7 @@ if (-not (Test-Path ".env")) {
 }
 
 Write-Host ""
-Write-Host "✅ Starting MumCare AI Backend..." -ForegroundColor Green
+Write-Host "✅ Starting MumzWorld AI Backend..." -ForegroundColor Green
 Write-Host ""
 Write-Host "🌐 Open your browser and go to: http://localhost:8000" -ForegroundColor Cyan
 Write-Host "📚 API Docs: http://localhost:8000/docs" -ForegroundColor Cyan

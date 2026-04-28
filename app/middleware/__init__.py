@@ -1,4 +1,4 @@
-"""Middleware components for MumCare AI."""
+"""Middleware components for MumzWorld AI."""
 
 from __future__ import annotations
 

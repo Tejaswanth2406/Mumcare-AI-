@@ -1,11 +1,11 @@
-# MumCare AI — AI-Native Decision Engine for Mumzworld
+# MumzWorld AI — AI-Native Decision Engine for Mumzworld
 
 > **Mumzworld AI-Native Intern Assessment** — Track A: AI Engineering Intern  
 > Problem selection, building a working prototype, and proving it works.
 
 ## 🎯 Overview
 
-**MumCare AI** is an AI-powered decision engine that transforms how mothers and caregivers shop for products. Instead of navigating filters and categories, users simply describe their needs in natural language and receive structured, empathetic, and actionable product recommendations with guidance.
+**MumzWorld AI** is an AI-powered decision engine that transforms how mothers and caregivers shop for products. Instead of navigating filters and categories, users simply describe their needs in natural language and receive structured, empathetic, and actionable product recommendations with guidance.
 
 **The Problem:** Mothers struggle with product decisions due to:
 - **Lack of clarity** about what they need
@@ -89,7 +89,7 @@ Mothers are the primary users of maternal/baby e-commerce, but they're making de
 - Sleep-deprived
 - Overwhelmed by information
 
-Traditional e-commerce filters add cognitive load. MumCare AI removes friction.
+Traditional e-commerce filters add cognitive load. MumzWorld AI removes friction.
 
 ### High-Leverage Opportunity
 
@@ -467,7 +467,7 @@ Return BOTH:
 
 ### POST /ai/query
 
-Process a user query through the MumCare AI pipeline.
+Process a user query through the MumzWorld AI pipeline.
 
 **Request:**
 ```json
@@ -511,7 +511,7 @@ Simple health check.
 ```json
 {
   "status": "healthy",
-  "service": "MumCare AI"
+  "service": "MumzWorld AI"
 }
 ```
 
@@ -740,7 +740,7 @@ This project is part of the Mumzworld AI Initiative.
 
 ## ✨ Final Statement
 
-MumCare AI demonstrates how an **AI-native decision layer** can replace traditional filter-based navigation in e-commerce by understanding user intent, retrieving relevant products, and generating structured, explainable recommendations with built-in safety and uncertainty handling.
+MumzWorld AI demonstrates how an **AI-native decision layer** can replace traditional filter-based navigation in e-commerce by understanding user intent, retrieving relevant products, and generating structured, explainable recommendations with built-in safety and uncertainty handling.
 
 This is not a chatbot wrapper. It's a **production AI system** combining intent parsing, RAG, structured output validation, multilingual generation, and rigorous evaluation — exactly what enterprise AI engineering requires.
 

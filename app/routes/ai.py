@@ -1,5 +1,5 @@
 """
-Production-grade FastAPI route for the MumCare AI pipeline.
+Production-grade FastAPI route for the MumzWorld AI pipeline.
 
 Features:
   - Full request/response logging with latency tracking
@@ -46,9 +46,9 @@ def _create_error_response(status_code: int, detail: str, request_id: Optional[s
         400: {"model": ErrorResponse, "description": "Empty or invalid query"},
         503: {"model": ErrorResponse, "description": "LLM service unavailable"},
     },
-    summary="Process a natural-language query through the MumCare AI pipeline",
+    summary="Process a natural-language query through the MumzWorld AI pipeline",
     description="""
-## MumCare AI Pipeline
+## MumzWorld AI Pipeline
 
 Processes a user's natural-language query through a 6-step AI pipeline:
 
