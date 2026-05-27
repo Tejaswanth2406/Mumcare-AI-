@@ -1,11 +1,8 @@
-# MumzWorld AI — AI-Native Decision Engine for Mumzworld
-
-> **Mumzworld AI-Native Intern Assessment** — Track A: AI Engineering Intern  
-> Problem selection, building a working prototype, and proving it works.
+# Mumcare AI — AI-Native Decision Engine.
 
 ## 🎯 Overview
 
-**MumzWorld AI** is an AI-powered decision engine that transforms how mothers and caregivers shop for products. Instead of navigating filters and categories, users simply describe their needs in natural language and receive structured, empathetic, and actionable product recommendations with guidance.
+**Mumcare AI** is an AI-powered decision engine that transforms how mothers and caregivers shop for products. Instead of navigating filters and categories, users simply describe their needs in natural language and receive structured, empathetic, and actionable product recommendations with guidance.
 
 **The Problem:** Mothers struggle with product decisions due to:
 - **Lack of clarity** about what they need
@@ -13,7 +10,7 @@
 - **Physical and emotional stress** (postpartum, sleep-deprived)
 - **Lack of personalized guidance**
 
-**Our Solution:** Replace browsing effort with intelligent assistance:
+**My Solution:** Replace browsing effort with intelligent assistance:
 ```
 User Query → Intent → Comfort Message → RAG Retrieval → LLM Reasoning → Structured Output
 ```
@@ -740,7 +737,7 @@ This project is part of the Mumzworld AI Initiative.
 
 ## ✨ Final Statement
 
-MumzWorld AI demonstrates how an **AI-native decision layer** can replace traditional filter-based navigation in e-commerce by understanding user intent, retrieving relevant products, and generating structured, explainable recommendations with built-in safety and uncertainty handling.
+Mumcare AI demonstrates how an **AI-native decision layer** can replace traditional filter-based navigation in e-commerce by understanding user intent, retrieving relevant products, and generating structured, explainable recommendations with built-in safety and uncertainty handling.
 
 This is not a chatbot wrapper. It's a **production AI system** combining intent parsing, RAG, structured output validation, multilingual generation, and rigorous evaluation — exactly what enterprise AI engineering requires.
 
