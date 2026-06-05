@@ -1,3 +1,5 @@
+<img width="1456" height="1080" alt="image" src="https://github.com/user-attachments/assets/11e9f07b-7021-4752-b96b-f96c1947643f" />
+
 # Mumcare AI — AI-Native Decision Engine.
 
 ## 🎯 Overview
